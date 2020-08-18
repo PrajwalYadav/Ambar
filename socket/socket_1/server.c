@@ -31,7 +31,7 @@ int main()
 		exit(EXIT_FAILURE);
 	}
 
-		if (listen(server_fd, 3) < 0) {
+		if (listen(server_fd, 2) < 0) {
 		perror("listen");
 		exit(EXIT_FAILURE);
 	}
